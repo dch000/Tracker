@@ -11,6 +11,10 @@
 		8B404DFD2AADB77D00D4559C /* Extension Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B404DFC2AADB77D00D4559C /* Extension Colors.swift */; };
 		8B404DFF2AADBDC600D4559C /* TrackersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B404DFE2AADBDC600D4559C /* TrackersViewController.swift */; };
 		8B404E012AADBE0500D4559C /* StatisticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B404E002AADBE0500D4559C /* StatisticViewController.swift */; };
+		8B404E042AADC3ED00D4559C /* Tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B404E032AADC3ED00D4559C /* Tracker.swift */; };
+		8B404E062AADC40200D4559C /* TrackerCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B404E052AADC40200D4559C /* TrackerCategory.swift */; };
+		8B404E082AADC41300D4559C /* TrackerRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B404E072AADC41300D4559C /* TrackerRecord.swift */; };
+		8B404E0A2AADC44000D4559C /* WeekDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B404E092AADC44000D4559C /* WeekDay.swift */; };
 		8B7864DB2A97CCB6009ADC96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7864DA2A97CCB6009ADC96 /* AppDelegate.swift */; };
 		8B7864DD2A97CCB6009ADC96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7864DC2A97CCB6009ADC96 /* SceneDelegate.swift */; };
 		8B7864DF2A97CCB6009ADC96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7864DE2A97CCB6009ADC96 /* ViewController.swift */; };
@@ -24,6 +28,10 @@
 		8B404DFC2AADB77D00D4559C /* Extension Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension Colors.swift"; sourceTree = "<group>"; };
 		8B404DFE2AADBDC600D4559C /* TrackersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackersViewController.swift; sourceTree = "<group>"; };
 		8B404E002AADBE0500D4559C /* StatisticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticViewController.swift; sourceTree = "<group>"; };
+		8B404E032AADC3ED00D4559C /* Tracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracker.swift; sourceTree = "<group>"; };
+		8B404E052AADC40200D4559C /* TrackerCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerCategory.swift; sourceTree = "<group>"; };
+		8B404E072AADC41300D4559C /* TrackerRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerRecord.swift; sourceTree = "<group>"; };
+		8B404E092AADC44000D4559C /* WeekDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDay.swift; sourceTree = "<group>"; };
 		8B7864D72A97CCB6009ADC96 /* Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B7864DA2A97CCB6009ADC96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B7864DC2A97CCB6009ADC96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,9 +61,21 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		8B404E022AADC3D300D4559C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8B404E032AADC3ED00D4559C /* Tracker.swift */,
+				8B404E052AADC40200D4559C /* TrackerCategory.swift */,
+				8B404E072AADC41300D4559C /* TrackerRecord.swift */,
+				8B404E092AADC44000D4559C /* WeekDay.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		8B7864CE2A97CCB6009ADC96 = {
 			isa = PBXGroup;
 			children = (
+				8B404E022AADC3D300D4559C /* Models */,
 				8B404DF92AADB75100D4559C /* Helpers */,
 				8B7864D92A97CCB6009ADC96 /* Tracker */,
 				8B7864D82A97CCB6009ADC96 /* Products */,
@@ -158,10 +178,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B404E062AADC40200D4559C /* TrackerCategory.swift in Sources */,
 				8B7864DF2A97CCB6009ADC96 /* ViewController.swift in Sources */,
 				8B404E012AADBE0500D4559C /* StatisticViewController.swift in Sources */,
+				8B404E0A2AADC44000D4559C /* WeekDay.swift in Sources */,
 				8B7864DB2A97CCB6009ADC96 /* AppDelegate.swift in Sources */,
 				8B404DFD2AADB77D00D4559C /* Extension Colors.swift in Sources */,
+				8B404E082AADC41300D4559C /* TrackerRecord.swift in Sources */,
+				8B404E042AADC3ED00D4559C /* Tracker.swift in Sources */,
 				8B7864DD2A97CCB6009ADC96 /* SceneDelegate.swift in Sources */,
 				8B404DF82AADB4C900D4559C /* TabBarController.swift in Sources */,
 				8B404DFF2AADBDC600D4559C /* TrackersViewController.swift in Sources */,

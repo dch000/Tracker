@@ -5,8 +5,7 @@ final class TabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
-        //
-        
+        setupViewControllers()
         setupTabBar()
     }
     
