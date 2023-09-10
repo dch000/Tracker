@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B404DF82AADB4C900D4559C /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B404DF72AADB4C900D4559C /* TabBarController.swift */; };
+		8B404DFD2AADB77D00D4559C /* Extension Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B404DFC2AADB77D00D4559C /* Extension Colors.swift */; };
+		8B404DFF2AADBDC600D4559C /* TrackersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B404DFE2AADBDC600D4559C /* TrackersViewController.swift */; };
+		8B404E012AADBE0500D4559C /* StatisticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B404E002AADBE0500D4559C /* StatisticViewController.swift */; };
 		8B7864DB2A97CCB6009ADC96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7864DA2A97CCB6009ADC96 /* AppDelegate.swift */; };
 		8B7864DD2A97CCB6009ADC96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7864DC2A97CCB6009ADC96 /* SceneDelegate.swift */; };
 		8B7864DF2A97CCB6009ADC96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7864DE2A97CCB6009ADC96 /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B404DF72AADB4C900D4559C /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		8B404DFC2AADB77D00D4559C /* Extension Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension Colors.swift"; sourceTree = "<group>"; };
+		8B404DFE2AADBDC600D4559C /* TrackersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackersViewController.swift; sourceTree = "<group>"; };
+		8B404E002AADBE0500D4559C /* StatisticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticViewController.swift; sourceTree = "<group>"; };
 		8B7864D72A97CCB6009ADC96 /* Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B7864DA2A97CCB6009ADC96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B7864DC2A97CCB6009ADC96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,9 +45,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B404DF92AADB75100D4559C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8B404DFC2AADB77D00D4559C /* Extension Colors.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		8B7864CE2A97CCB6009ADC96 = {
 			isa = PBXGroup;
 			children = (
+				8B404DF92AADB75100D4559C /* Helpers */,
 				8B7864D92A97CCB6009ADC96 /* Tracker */,
 				8B7864D82A97CCB6009ADC96 /* Products */,
 			);
@@ -63,6 +80,9 @@
 				8B7864E32A97CCB9009ADC96 /* Assets.xcassets */,
 				8B7864E52A97CCB9009ADC96 /* LaunchScreen.storyboard */,
 				8B7864E82A97CCB9009ADC96 /* Info.plist */,
+				8B404DF72AADB4C900D4559C /* TabBarController.swift */,
+				8B404DFE2AADBDC600D4559C /* TrackersViewController.swift */,
+				8B404E002AADBE0500D4559C /* StatisticViewController.swift */,
 			);
 			path = Tracker;
 			sourceTree = "<group>";
@@ -139,8 +159,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B7864DF2A97CCB6009ADC96 /* ViewController.swift in Sources */,
+				8B404E012AADBE0500D4559C /* StatisticViewController.swift in Sources */,
 				8B7864DB2A97CCB6009ADC96 /* AppDelegate.swift in Sources */,
+				8B404DFD2AADB77D00D4559C /* Extension Colors.swift in Sources */,
 				8B7864DD2A97CCB6009ADC96 /* SceneDelegate.swift in Sources */,
+				8B404DF82AADB4C900D4559C /* TabBarController.swift in Sources */,
+				8B404DFF2AADBDC600D4559C /* TrackersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
